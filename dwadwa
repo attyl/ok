@@ -432,7 +432,7 @@ function Library:create(options)
 	end
 
 	options = self:set_defaults({
-		Name = "Mercury",
+		Name = "W Script",
 		Size = UDim2.fromOffset(600, 400),
 		Theme = self.Themes[settings.Theme],
 		Link = "https://attylishot.com"
@@ -1070,7 +1070,7 @@ end
 function Library:tab(options)
 	options = self:set_defaults({
 		Name = "New Tab",
-		Icon = "rbxassetid://8569322835"
+		Icon = "rbxassetid://10590477428"
 	}, options)
 
 	local tab = self.container:object("ScrollingFrame", {
