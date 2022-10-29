@@ -65,11 +65,11 @@ local Library = {
 		},
 		Cock = {
 			Main = Color3.fromRGB(0, 0, 0),
-			Secondary = Color3.fromRGB(83, 44, 132),
-			Tertiary = Color3.fromRGB(37, 0, 82),
+			Secondary = Color3.fromRGB(255, 0, 0),
+			Tertiary = Color3.fromRGB(0, 255, 0),
 
-			StrongText = Color3.fromRGB(113, 0, 253),        
-			WeakText = Color3.fromRGB(113, 0, 253)
+			StrongText = Color3.fromRGB(0, 0, 255),        
+			WeakText = Color3.fromRGB(255, 255, 255)
 		},
 		Vaporwave = {},
 		OperaGX = {},
