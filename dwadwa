@@ -60,8 +60,8 @@ local Library = {
 			Secondary = Color3.fromRGB(10, 10, 10),
 			Tertiary = Color3.fromRGB(0, 149, 7),
 
-			StrongText = Color3.fromHSV(0, 149, 7),		
-			WeakText = Color3.fromHSV(0, 149, 7)
+			StrongText = Color3.fromRGB(0, 149, 7),		
+			WeakText = Color3.fromRGB(0, 149, 7)
 		},
 		Default = {
 			Main = Color3.fromRGB(0, 0, 0),
