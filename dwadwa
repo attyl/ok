@@ -40,7 +40,7 @@ local Library = {
 			WeakText = Color3.fromHSV(0, 0, 172/255)
 		},
 		Legacy2 = {
-			Main = Color3.fromRGB(0, 0, 0),
+			Main = Color3.fromRGB(37, 0, 82),
 			Secondary = Color3.fromRGB(0, 0, 0),
 			Tertiary = Color3.fromRGB(0, 0, 0),
 
