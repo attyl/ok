@@ -41,11 +41,11 @@ local Library = {
 		},
 		Legacy2 = {
 			Main = Color3.fromRGB(37, 0, 82),
-			Secondary = Color3.fromRGB(0, 0, 0),
-			Tertiary = Color3.fromRGB(37, 0, 81),
+			Secondary = Color3.fromRGB(37, 0, 82),
+			Tertiary = Color3.fromRGB(37, 0, 82),
 
-			StrongText = Color3.fromRGB(37, 0, 82),		
-			WeakText = Color3.fromHSV(37, 0, 82)
+			StrongText = Color3.fromRGB(0, 0, 0),		
+			WeakText = Color3.fromHSV(0, 0, 0)
 		},
 		Serika = {
 			Main = Color3.fromRGB(50, 52, 55),
