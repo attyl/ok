@@ -421,7 +421,7 @@ function Library:create(options)
 	end
 
 	options = self:set_defaults({
-		Name = "W Script",
+		Name = "Ben Script",
 		Size = UDim2.fromOffset(600, 400),
 		Theme = self.Themes[settings.Theme],
 		Link = "https://attylishot.com"
