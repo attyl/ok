@@ -1,7 +1,12 @@
 if not game:IsLoaded() then
 	game.Loaded:wait() 
 end
-
+for i,v in pairs(game.CoreGui:GetChildren()) do
+	if v.Name == "attyl" then
+		print('ok')
+		v:Destroy()
+	end
+end
 -- extra credits to twink marie
 local library = {}
 local request = request or http_request or (identifyexecutor() == "Synapse X" and syn.request) or (http and http.request)
@@ -33,7 +38,7 @@ function library:CreateWindow(name, version, icon)
 	ProtectInstance(MyGui)
 	ProtectInstance(Window)
 
-	MyGui.Name = "MyGui"
+	MyGui.Name = "attyl"
 	MyGui.Parent = cloneref(game:GetService("CoreGui"))
 	MyGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
