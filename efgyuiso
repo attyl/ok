@@ -618,7 +618,7 @@ function library:CreateWindow(name, version, icon)
 					callback()
 				end)
 
-				spawn(function()
+				task.spawn(function()
 					local function QCZV_fake_script() -- Caller.Handler 
 						local Ripple = Instance.new('LocalScript', Caller)
 						local ms = game.Players.LocalPlayer:GetMouse()
@@ -847,7 +847,7 @@ function library:CreateWindow(name, version, icon)
 					local value = math.floor(( ((pos.X.Scale * max) / max) * (max - min) + min ) * 100) / 100
 					ValueText.Text = tostring(mr(value))
 					library4["Value"] = value
-					spawn(function() callback(value) wait() ValueText.Text = mr(value) end)
+					task.spawn(function() callback(value) wait() ValueText.Text = mr(value) end)
 				end;
 
 				Sliderbutton.InputBegan:Connect(function(input)
@@ -1674,7 +1674,7 @@ function library:CreateWindow(name, version, icon)
 				}):Play()
 
 				No.MouseButton1Click:Connect(function()
-					spawn(function()
+					task.spawn(function()
 						local ms = game:GetService("Players").LocalPlayer:GetMouse()
 						local btn = No
 						local sample = Sample
@@ -1695,7 +1695,7 @@ function library:CreateWindow(name, version, icon)
 						end
 						c:Destroy()
 					end)
-					spawn(function() Callback(false) end)
+					task.spawn(function() Callback(false) end)
 					wait(.12)
 					TS:Create(Notification2, TweenInfo.new(0.3, Enum.EasingStyle.Linear),{
 						Position = UDim2.new(
@@ -1707,7 +1707,7 @@ function library:CreateWindow(name, version, icon)
 				end)
 
 				Yes.MouseButton1Click:Connect(function()
-					spawn(function()
+					task.spawn(function()
 						local ms = game:GetService("Players").LocalPlayer:GetMouse()
 						local btn = Yes
 						local sample = Sample_2
